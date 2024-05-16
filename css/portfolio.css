@@ -1,0 +1,151 @@
+/* PORTFOLIO PAGE */
+
+/* PAGE CONTAINER */
+.page-container2 {
+  max-width: 1366px;
+  margin: 120px auto 20px auto;
+}
+
+#portfolio-h1 {
+  text-align: center;
+}
+
+/* PAGE CONTAINER WORDPRESS SECTION */
+.photo-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.photo-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* PAGE CONTAINER BLACKJACK SECTION */
+.blackjack-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blackjack-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* PAGE CONTAINER BIKE REPAIR SECTION */
+.bike-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bike-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* PAGE CONTAINER RESPONSIVE DESIGN SECTION */
+.response-design-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.response-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+/* PAGE CONTAINER JAVASCRIPT SECTION */
+.js-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.js-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* PAGE CONTAINER MARIAN HOUSE SECTION */
+.marian-house-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.mh-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* PAGE CONTAINER WORDPRESS BLOGS SECTION */
+
+.wordpress-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.wp-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 1080 PIXELS */
+@media screen and (max-width: 1080px) {
+  .page-container2 {
+    max-width: 100%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 768 PIXELS */
+@media screen and (max-width: 768px) {
+  .page-container2 {
+    max-width: 90%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 375 PIXELS */
+@media screen and (max-width: 375px) {
+  .page-container {
+    max-width: 90%;
+  }
+}
+
+button a {
+  text-decoration: none;
+  color: #ecf2ff;
+}

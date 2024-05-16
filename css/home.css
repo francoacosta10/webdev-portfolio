@@ -1,0 +1,204 @@
+/* HOME PAGE */
+
+/* PAGE CONTAINER */
+.page-container {
+  max-width: 1366px;
+  margin: 120px auto 20px auto;
+}
+
+/* PAGE CONTAINER INTRO WELCOME SECTION */
+.intro-welcome {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.intro-welcome h1 {
+  margin-bottom: -30px;
+  font-size: 32px;
+  color: #141c3a;
+}
+
+.intro-welcome h2 {
+  font-size: 24px;
+  color: #777777;
+}
+
+.intro-welcome p {
+  font-size: 18px;
+  color: #777777;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#cartoon {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin-bottom: -50px;
+  animation: rockAnimation 2s ease-in-out infinite;
+}
+
+.rocking {
+  animation: rockAnimation 1s ease-in-out infinite;
+}
+
+@keyframes rockAnimation {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.intro-text p {
+  margin: 10px;
+}
+
+/* PAGE CONTAINER DEVELOPMENT SECTION */
+.development-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#dev-sign {
+  margin-top: 15px;
+}
+
+.dev-h2 {
+  color: #777777;
+}
+
+.dev-p {
+  margin-top: 5px;
+  color: #777777;
+  font-size: 18px;
+  max-width: 420px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.purple-text {
+  color: #6e07f3;
+}
+
+/* PAGE CONTAINER DESIGN SECTION */
+.design-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.design-h2 {
+  color: #777777;
+}
+
+.design-p {
+  color: #777777;
+  font-size: 18px;
+  max-width: 420px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* #speech-cloud {
+  position: absolute;
+  top: 300px; 
+  left: 860px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  display: none; 
+}
+
+#speech-text {
+  margin: 0;
+  font-size: 14px;
+} */
+
+/* PAGE CONTAINER CONTACT SECTION */
+.contact-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.design-h2 {
+  color: #777777;
+}
+
+.design-p {
+  color: #777777;
+  font-size: 18px;
+  max-width: 420px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 1024 PIXELS iPad Pro*/
+@media screen and (max-width: 1024px) {
+  .header-container {
+    max-width: 100%;
+  }
+
+  .development-section {
+    height: 301.32px;
+  }
+
+  #dev-sign {
+    margin-top: 50px;
+  }
+
+  .design-section {
+    height: 301.32px;
+  }
+
+  #design-sign {
+    margin-top: 50px;
+  }
+
+  .footer-container {
+    max-width: 100%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 1080 PIXELS */
+@media screen and (max-width: 1080px) {
+  .page-container {
+    max-width: 100%;
+  }
+
+  .intro-welcome {
+    padding-bottom: 30px;
+  }
+
+  .design-section {
+    padding-top: 25px;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 768 PIXELS */
+@media screen and (max-width: 768px) {
+  .page-container {
+    max-width: 90%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 375 PIXELS */
+@media screen and (max-width: 375px) {
+  .page-container {
+    max-width: 90%;
+  }
+}

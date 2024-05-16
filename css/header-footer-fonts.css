@@ -1,0 +1,355 @@
+/* BODY */
+body {
+  background-color: #f7f9fa;
+  margin: 0;
+}
+
+#fn {
+  font-size: 40px;
+  color: #50cfa4;
+}
+
+h1 {
+  font-size: 32px;
+  color: #141c3a;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+p,
+.form-text,
+a.buttons {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+a {
+  font-family: sans-serif;
+}
+
+h2,
+h3,
+p {
+  color: #777777;
+}
+
+/* HEADER CONTAINER */
+.header-container {
+  max-width: 1366px;
+  margin: 0 auto; /* Center the container horizontally */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* HEADER */
+header {
+  background-color: #5b4d91;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo {
+  display: inline-block;
+  margin: 0;
+  font-size: 30px;
+  font-family: "Exo", sans-serif;
+  color: #f7f5f2;
+  text-decoration: none;
+}
+
+.photo-section,
+.bike-section,
+.response-design-section,
+.marian-house-section,
+.js-section,
+.wordpress-section,
+.blackjack-section {
+  padding-bottom: 35px;
+}
+
+/* BUTTONS */
+.buttons {
+  background-color: #5b4d91;
+  border: solid 2px #5b4d91;
+  border-radius: 50px;
+  color: #f7f5f2;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.buttons:hover {
+  background-color: #008080;
+  color: #f7f5f2;
+}
+
+.buttons:active,
+.buttons a:active {
+  color: #141c3a;
+}
+
+.photo-text,
+.bike-text,
+.response-text,
+.js-text,
+.mh-text,
+.wp-text
+.blackjack-text {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* FOOTER */
+.footer-container {
+  max-width: 1366px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+footer {
+  background-color: #5b4d91;
+  padding: 5px 10px;
+  text-align: center;
+  
+}
+
+#f-logo {
+  font-family: "Exo", sans-serif;
+  text-decoration: none;
+  color: #f7f5f2;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav a {
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.footer-links {
+  color: #f7f5f2;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 15px;
+  color: #f7f5f2;
+}
+
+.footer-links:hover {
+  color: #141c3a;
+}
+
+/* HAMBURGER MENU */
+.hamburger-menu {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  background: #5b4d91;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links {
+  color: #f7f5f2;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.nav-links:hover {
+  color: #141c3a;
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 1400 PIXELS LAPTOPS*/
+@media screen and (max-width: 1448) {
+  .header-container {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    max-width: 100%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 1024 PIXELS iPad Pro*/
+@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
+  .header-container {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px), screen and (max-height: 1024px) {
+  .header-container {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    max-width: 100%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 768 PIXELS TABLETS*/
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+  .header-container {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    max-width: 100%;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 430 PIXELS MOBILE*/
+@media screen and (max-width: 430px) {
+  .header-container,
+  .footer-container {
+    max-width: 100%;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #141c3a;
+    padding: 3px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav li {
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+}
+
+/* RESPONSIVE STYLES FOR VIEWPORT WIDTH 375 PIXELS MOBILE*/
+@media screen and (max-width: 375px), screen and (max-height: 844px) {
+  .header-container,
+  .footer-container {
+    max-width: 100%;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #141c3a;
+    padding: 3px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav li {
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+
+  .intro-welcome h1 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .intro-welcome h2,
+  .development-section h2,
+  .design-section h2 {
+    font-size: 21px;
+  }
+
+  .intro-welcome p,
+  .development-section p,
+  .design-section p {
+    font-size: 16px;
+  }
+
+  .portfolio-h1 {
+    font-size: 24px;
+  }
+
+  .photo-h2,
+  .bike-h2,
+  .response-design-h2,
+  .js-h2,
+  .mh-h2,
+  .wp-h2,
+  .blackjack-h2 {
+    font-size: 21px;
+  }
+  .photo-text,
+  .bike-text,
+  .response-text,
+  .js-text,
+  .mh-text,
+  .wp-text,
+  .blackjack-text {
+    font-size: 16px;
+  }
+
+  .footer-nav {
+    font-size: 16px;
+  }
+}

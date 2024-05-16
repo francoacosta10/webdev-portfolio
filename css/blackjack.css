@@ -1,0 +1,56 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(/portfolio/images/blackjack-images/blackjack-table-background.jpg);
+  background-size: cover;
+  text-align: center;
+  margin-top: 110px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 60px;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.button-font {
+  font-size: 36px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 300px;
+  background-color: goldenrod;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 2px;
+}
+
+#newCardButton {
+  margin-top: 20px;
+}
+
+/* RESPONSIVE STYLE FOR VIEWPORT WIDTH 375px */
+@media screen and (max-width: 375px) {
+  html {
+    margin-top: -20%;
+  }
+}
+
+/* RESPONSIVE STYLE FOR VIEWPORT WIDTH 390px */
+@media only screen and (max-width: 390px) {
+  body {
+    margin-top: 25%;
+  }
+}
