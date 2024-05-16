@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/rides.css" />
+    <title>Amusement Park Ride Validator</title>
+  </head>
+  <body>
+    <header class="masthead mb-auto">
+      <nav class="nav nav-masthead">
+        <a
+          class="nav-link navFont active"
+          href="index.html"
+          >Home</a
+        >
+        <a class="nav-link navFont" href="rides.html">Ride Restriction</a>
+        <a class="nav-link navFont" href="portfolio.html">Portfolio</a>
+      </nav>
+    </header>
+    <br />
+    <h1>Amusement Park Ride Validator</h1>
+    <form id="rideValidatorForm">
+      <label for="height">Height:</label>
+      <input type="number" id="height" placeholder="Enter height" />
+      <select id="heightUnit">
+        <option value="inches">inches</option>
+        <option value="feet">feet</option>
+        <option value="meters">meters</option>
+      </select>
+      <br />
+      <br />
+      <label for="weight">Weight:</label>
+      <input type="number" id="weight" placeholder="Enter weight" />
+      <select id="weightUnit">
+        <option value="pounds">pounds</option>
+        <option value="kilograms">kilograms</option>
+      </select>
+      <br />
+      <br />
+      <!-- Add radio buttons for ride list selection -->
+      <input
+        type="radio"
+        id="completeList"
+        name="listType"
+        value="complete"
+        checked
+      />
+      <label for="completeList">Complete List</label>
+      <input type="radio" id="partialList" name="listType" value="partial" />
+      <label for="partialList">Partial List</label>
+      <br />
+
+      <button type="button" onclick="validateRides()">Validate Rides</button>
+    </form>
+    <h2>Rides List</h2>
+    <ul id="ridesList"></ul>
+    <h2>Recommendations</h2>
+    <p id="recommendations"></p>
+    <script src="rides.js"></script>
+  </body>
+</html>
