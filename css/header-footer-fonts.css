@@ -81,6 +81,7 @@ header {
 }
 
 .photo-section,
+.metadata-section,
 .bike-section,
 .response-design-section,
 .marian-house-section,
@@ -111,6 +112,7 @@ header {
 }
 
 .photo-text,
+.metadata-text,
 .bike-text,
 .response-text,
 .js-text,
@@ -331,6 +333,7 @@ nav {
   }
 
   .photo-h2,
+  .metadata-h2,
   .bike-h2,
   .response-design-h2,
   .js-h2,
@@ -340,6 +343,7 @@ nav {
     font-size: 21px;
   }
   .photo-text,
+  .metadata-text,
   .bike-text,
   .response-text,
   .js-text,
