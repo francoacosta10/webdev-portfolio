@@ -26,6 +26,22 @@
   text-align: left;
 }
 
+/* PAGE CONTAINER IMAGE METADATA VIEWER */
+.metadata-section {
+  background-color: #ecf2ff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.metadata-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 /* PAGE CONTAINER BLACKJACK SECTION */
 .blackjack-section {
   background-color: #ecf2ff;
@@ -108,7 +124,7 @@
 }
 
 /* PAGE CONTAINER WORDPRESS BLOGS SECTION */
-
+/*
 .wordpress-section {
   background-color: #ecf2ff;
   text-align: center;
@@ -123,6 +139,7 @@
   margin-bottom: 20px;
   text-align: left;
 }
+*/
 
 /* RESPONSIVE STYLES FOR VIEWPORT WIDTH 1080 PIXELS */
 @media screen and (max-width: 1080px) {
