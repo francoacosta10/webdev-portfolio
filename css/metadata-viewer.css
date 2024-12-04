@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1)
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+
+#imagePreview {
+  max-width: 100%;
+  margin: 20px auto;
+  display: none;
+}
+
+#metadataDisplay {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  text-align: center;
+}
+
+.metadata-item {
+  margin: 10px 0;
+}
+
+/* Responsive for mobile devices */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
