@@ -11,10 +11,10 @@ Welcome to the Bike Repair Shop: Combined HTML and CSS to keep your wheels turni
 Responsive Logo Design Showcase: Experience the adaptability of our logos as they resize to fit any screen. Our designs maintain their clarity on desktops, tablets, and mobile devices, ensuring a consistent identity across all platforms.
 
 💻 Tech Stack
-Frontend: HTML5, CSS3, JavaScript
-Backend: PHP, Python
-Tools & CMS: WordPress, Drupal, SharePoint, 
-Design: Figma, AdobeXD, Invision
+**Frontend**: HTML5, CSS3, JavaScript
+**Backend**: PHP, Python
+**Tools & CMS**: WordPress, Drupal, SharePoint, 
+**Design**: Figma, AdobeXD, Invision
 
 📫 Connect with me: francoacosta1019@gmail.com
 🔗 Portfolio: jeanfrancoacosta.com
