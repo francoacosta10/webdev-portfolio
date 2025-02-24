@@ -12,8 +12,8 @@ Responsive Logo Design Showcase: Experience the adaptability of our logos as the
 
 💻 Tech Stack
 **Frontend**: HTML5, CSS3, JavaScript
-**Backend**: PHP, Python
-**Tools & CMS**: WordPress, Drupal, SharePoint 
+**Backend**: PHP, Python, Java
+**Tools & CMS**: WordPress, Drupal, SharePoint, Visual Studio Code, IntelliJ IDEA
 **Design**: Figma, AdobeXD, Invision
 
 📫 Connect with me: francoacosta1019@gmail.com
