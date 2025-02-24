@@ -79,7 +79,7 @@
   margin-top: 5px;
   color: #777777;
   font-size: 18px;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 10px;
   text-align: left;
@@ -101,14 +101,14 @@
   color: #777777;
 }
 
-.design-p {
+/* .design-p {
   color: #777777;
   font-size: 18px;
   max-width: 500px;
   margin: 0 auto;
   margin-bottom: 10px;
   text-align: left;
-}
+} */
 
 /* #speech-cloud {
   position: absolute;
@@ -141,7 +141,7 @@
 .design-p {
   color: #777777;
   font-size: 18px;
-  max-width: 500px;
+  max-width: 600px; 
   margin: 0 auto;
   margin-bottom: 10px;
   text-align: left;
